@@ -1,10 +1,11 @@
-# CIS 6397 MiniProject 2 Group-6
-1. This repository contains the code in the jupyter notebook and txt file containing all the answers to the questions for Mini Project 2
-2. Report is uploaded on Canvas
-
-
-# Team Members:
-
-## Mukesh Reddy Mavurapu-2251153
-## Jaswanthi Boyapati-2250742
-## Pradeep Reddy Mallepally-2200020
+we used k-means clustering and 
+hierarchical clustering to group blog posts or news 
+articles from the Daily Kos political blog. We used both 
+hierarchical and KMeans methods to extract the top six 
+words from each of the seven clusters that were provided 
+in the problem statement. Overall, we were able to 
+identify significant themes and subjects in the Daily Kos 
+political blog and group-related articles based on their 
+content using our clustering analysis. This could be 
+useful for conducting further research on topics or issues 
+or for organizing and presenting articles to readers.
