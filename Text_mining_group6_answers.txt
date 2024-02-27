@@ -1,0 +1,50 @@
+				Text Mining Project 2 Group 6
+1. Data Preprocessing:
+Each of the variables in the dataset is a word that has appeared in at least 50 different articles (1,545 words in total). The set of words has been trimmed according to some of the techniques covered in the previous weeks (punctuation has been removed and stop words have been removed). For each document, the variable values are the number of times that a word appeared in the document.
+There are a total of 3430 documents and 1545 words are taken which are appeared in 50 different articles. We have done data preprocessing if there is any null value or Nan values which we are replacing with 0.
+Creating the distances will probably take you a while. Why? Explain.
+Calculating Euclidean distances in high-dimensional datasets is computationally intensive due to the large number of dimensions (1,545 words) and data points (3,430 articles). Each pairwise comparison requires numerous mathematical operations, resulting in a quadratic increase in computations. This complexity, coupled with hardware limitations, makes the process time-consuming. Mitigation strategies include dimensionality reduction and the use of optimized libraries and parallel processing to improve efficiency. Ward's hierarchical clustering method can also reduce calculations by utilizing a linkage approach, especially useful for large datasets.
+
+2. what are good choices for the number of clusters?
+ I would consider 5 clusters as the dataset naturally falls into common categories like "Election Coverage," "Foreign Policy", "Social Issues”, “Economic Issues" and "Technology".
+Selecting the number of clusters, we need to consider the dataset size, content categories and user experience. Large datasets might require a more clusters for better classification, but smaller dataset may suffice with fewer clusters.
+There are other metrics like silhouette score and elbow method to decide the number of clusters. Visual representation also helps us to decide on the number of clusters like dendrogram plot.
+The goal is to create a manageable, intuitive content structure that helps readers easily find articles of interest, balancing granularity, and organization to enhance the user experience.
+
+3. How many observations are in cluster 3?
+There are 324 observations in cluster 3.
+Which cluster has the most observations?
+The cluster with the most observations is cluster 1.
+
+Which cluster has the fewest observations?
+The cluster with the fewest observations is cluster 5.
+
+
+4. What is the most frequent word in this cluster, in terms of average value?
+The first cluster has the highest number of observations and the topmost occurring words are bush, democrat, Kerry, state, presided and republican. It appears the first cluster is related to political part and the members with a focus on the Bush administration, the Democratic Party, John Kerry, and possibly state governance.
+
+5. Which cluster could best be described as the cluster related to the Iraq war?
+Cluster 6 is related to Iraq war. As the top 6 words from cluster 6 has Iraq and war. 
+In 2004, one of the candidates for the Democratic nomination for the President of the United States was Howard Dean, John Kerry was the candidate who won the democratic nomination, and John Edwards with the running mate of John Kerry (the Vice President nominee). Given this information, which cluster best corresponds to the democratic party?
+Based on the provided information about the 2004 Democratic nomination for the President of the United States, it's clear that the cluster that best corresponds to the Democratic Party is Cluster 7. Cluster 7 contains the following prominent words: "dean", "kerry", "democrat", "edward", "candidate", and "gephardt". These words collectively suggest a strong association with the Democratic Party, its candidates, and the nomination process.
+
+6. How many observations are in Cluster 3?
+There are 363 observations in cluster 3.
+Which cluster has the most observations?
+The cluster with the most observations is cluster 4
+Which cluster has the fewest number of observations?
+The cluster with the fewest observations is cluster 5.
+
+
+7. Which k-means cluster best corresponds to the Iraq War?
+Based on the top words from cluster 7. This cluster best corresponds to Iraq war.
+Which k-means cluster best corresponds to the democratic party? (Remember that we are looking for the names of the key democratic party leaders.)
+Based on the provided information and the key Democratic Party leaders during the 2004 U.S. Presidential Election, the K-Means cluster that best corresponds to the Democratic Party is Cluster 2.
+
+8. Which Hierarchical Cluster best corresponds to K-Means Cluster 2?
+Hierarchical Cluster that best corresponds to K-Means Cluster 2: 3
+
+Which Hierarchical Cluster best corresponds to K-Means Cluster 3?
+Hierarchical Cluster that best corresponds to K-Means Cluster 3: 0
+
+
